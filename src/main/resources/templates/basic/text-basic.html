@@ -7,7 +7,7 @@
 <body>
 <h1>컨텐츠에 데이터 출력하기</h1>
 <ul>
-    <li>th:text 사용 <h1 th:text="${data}"></h1></li>
+    <li>th:text 사용 <h1 th:text="'Hello!!! ' + ${data}"></h1></li>
     <li>th:utext 사용 span 태그 : <span th:utext="${data}"></span></li>
     <li>컨텐츠 안에서 직접 출력하기 = [[${data}]]</li>
 </ul>
